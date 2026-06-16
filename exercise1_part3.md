@@ -1,3 +1,8 @@
+#Github Project Summary
+
 The freeCodeCamp.org GitHub project contains the open-source codebase and curriculum. As a donor-supported non-profit organization, freeCodeCamp aims to help people learn programming and transition into technology careers. The platform offers a comprehensive, self-paced curriculum covering topics such as Responsive Web Design, JavaScript, Front-End Development Libraries, Python, Relational Databases, and Back-End Development. Learners complete interactive coding challenges, projects, quizzes, and certification exams to earn verified developer certifications.
 
 Beyond its coding curriculum, freeCodeCamp provides a large learning ecosystem that includes language certifications, coding interview preparation, technical articles, video courses, a discussion forum, and a developer community on Discord. The project is fully open source and maintained by thousands of volunteers who contribute code, educational content, bug fixes, and improvements. Through this collaborative effort, freeCodeCamp has helped over 100,000 people obtain their first developer jobs while making high-quality programming education accessible to anyone for free.
+
+### Git Status Screenshot
+![Status Screenshot](resources/images/ex1_2.png)
