@@ -14,5 +14,7 @@ public class Main {
         // Testing your division by zero safeguard!
         System.out.println("Testing Division by Zero (10 / 0):");
         myCalc.divide(10, 0);
+
+        System.out.println("Viktoria Gospodinova");
     }
 }
