@@ -34,6 +34,9 @@ This project is a console-based Java application that encrypts and decrypts text
 - [Exercise 1 Part 2](exercise1_part2.md) 
 - [Exercise 1 Part 3](exercise1_part3.md) 
 
+- [Exercise 2](exercise2.md) 
+
+
 ### Author
 - **Viktoria Gospodinova** [GitHub Profile](https://github.com/vickyg06)
 - University: [FH Campus 02](https://www.campus02.at/)
