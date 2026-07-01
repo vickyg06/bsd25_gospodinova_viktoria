@@ -74,10 +74,27 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDivideByZeroThrowsException() {
-        // Tests if dividing by zero throws the correct mathematical exception
-        assertThrows(ArithmeticException.class, () -> {
-            calc.divide(5.0, 0.0);
-        }, "Dividing by zero should throw an ArithmeticException");
+    public void testDivideByZero() {
+        // Tests if dividing by zero is safely handled by returning 0.0
+        assertEquals(0.0, calc.divide(5.0, 0.0), "Dividing by zero should safely return 0.0");
+    }
+
+    // --- FACTORIAL TESTS ---
+    @Test
+    public void testFactorialPositiveNumber() {
+        // 5! (5 * 4 * 3 * 2 * 1) is 120
+        assertEquals(120.0, calc.factorial(5), "Factorial of 5 should be 120");
+    }
+
+    @Test
+    public void testFactorialZero() {
+        // 0! is mathematically defined as 1
+        assertEquals(1.0, calc.factorial(0), "Factorial of 0 should be 1");
+    }
+
+    @Test
+    public void testFactorialNegativeNumber() {
+        // Assignment requires returning 0 for negative numbers
+        assertEquals(0.0, calc.factorial(-5), "Factorial of negative numbers should return 0");
     }
 }

@@ -34,4 +34,19 @@ public class Calculator {
         logger.debug("Method multiply called with parameters: " + number1 + ", " + number2);
         return number1 * number2;
     }
+
+    public double factorial(int n) {
+        if (n < 0) {
+            return 0; // Assignment requirement for negative numbers
+        }
+        if (n == 0) {
+            return 1; // 0! is always 1
+        }
+
+        double result = 1;
+        for (int i = 1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
+    }
 }
