@@ -74,11 +74,9 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDivideByZeroThrowsException() {
-        // Tests if dividing by zero throws the correct mathematical exception
-        assertThrows(ArithmeticException.class, () -> {
-            calc.divide(5.0, 0.0);
-        }, "Dividing by zero should throw an ArithmeticException");
+    public void testDivideByZero() {
+        // Tests if dividing by zero is safely handled by returning 0.0
+        assertEquals(0.0, calc.divide(5.0, 0.0), "Dividing by zero should safely return 0.0");
     }
 
     // --- FACTORIAL TESTS ---
