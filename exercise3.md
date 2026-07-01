@@ -1,1 +1,2 @@
-Unit tests are great because they prevent future bugs.
+Unit tests are essential because they serve as code documentation.
+
