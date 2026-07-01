@@ -4,11 +4,18 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The CalculatorTest class contains automated JUnit tests
+ * to verify the functionality of the Calculator class methods.
+ */
 public class CalculatorTest {
 
     private Calculator calc;
 
-    // This method runs before EVERY test to give you a fresh Calculator object
+    /**
+     * Initializes a fresh Calculator instance before each individual test is run.
+     * This ensures that tests do not interfere with one another.
+     */
     @BeforeEach
     public void setUp() {
         calc = new Calculator();
