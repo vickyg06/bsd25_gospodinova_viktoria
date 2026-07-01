@@ -34,4 +34,9 @@ public class Calculator {
         logger.debug("Method multiply called with parameters: " + number1 + ", " + number2);
         return number1 * number2;
     }
+
+    public double factorial(int n) {
+        // TDD phase: Do not implement yet, just return 0
+        return 0;
+    }
 }
