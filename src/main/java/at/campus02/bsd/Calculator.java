@@ -36,7 +36,17 @@ public class Calculator {
     }
 
     public double factorial(int n) {
-        // TDD phase: Do not implement yet, just return 0
-        return 0;
+        if (n < 0) {
+            return 0; // Assignment requirement for negative numbers
+        }
+        if (n == 0) {
+            return 1; // 0! is always 1
+        }
+
+        double result = 1;
+        for (int i = 1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
     }
 }
